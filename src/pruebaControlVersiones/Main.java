@@ -13,6 +13,7 @@ public class Main {
     } else {
       System.out.println("Has introducido el número: " + num);
 
+      System.out.println("RESULTADO - El factorial del número " + num + " es " + factorialRec(num));
       System.out.println("RESULTADO - El factorial del número " + num + " es " + factorialBucle(num));
     }
   }
@@ -25,6 +26,14 @@ public class Main {
     }
 
     return result;
+  }
+
+  private static long factorialRec(int n) {
+    if (n == 0 || n == 1) {
+      return 1;
+    }
+
+    return n * factorialRec(n - 1);
   }
 
   private static int pedirNumero() {
