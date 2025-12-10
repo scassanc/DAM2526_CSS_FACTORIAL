@@ -1,0 +1,111 @@
+    1  history -w
+    2  cd Documents/dev-clases/eclipse-workspace/CasadoSanchezSergio_Factorial/
+    3  git status
+    4  git diff src/pruebaControlVersiones/Main.java
+    5  git status
+    6  git diff src/pruebaControlVersiones/Main.java
+    7  git diff src/pruebaControlVersiones/Main.java
+    8  git diff src/pruebaControlVersiones/Main.java
+    9  git log --oneline --graph --all
+   10  history -w
+   11  git status
+   12  git add .
+   13  git commit -m "Versión A: implementación inicial del proyecto"
+   14  clear
+   15  git remote add origin https://github.com/scassanc/DAM2526_CSS_FACTORIAL.git
+   16  git push -u origin main
+   17  git add .
+   18  git status
+   19  git commmit -m "Versión B: refactorizar código base para solicitar un número al usuario"
+   20  git commit -m "Versión B: refactorizar código base para solicitar un número al usuario"
+   21  git push
+   22  git add .
+   23  git commit -m "Versión C: mostrar en pantalla resultado"
+   24  git push
+   25  clear
+   26  git switch -c factorial_recursivo
+   27  git status
+   28  git add .
+   29  git commit -m "Versión F1: añadir implementación de factorial"
+   30  git add .
+   31  git commit -m "Versión F2: mostrar en consola el resultado de la factorial"
+   32  git add .
+   33  git commit -m "Versión F3: añadir JavaDoc al método del factorial"
+   34  git log --oneline --graph
+   35  git statis
+   36  git status
+   37  clear
+   38  switch main
+   39  git switch main
+   40  git status
+   41  git add src/pruebaControlVersiones/Main.java 
+   42  git commit -m "Versión D: implementar validación en 'pedirNumero'"
+   43  git push
+   44  git add src/pruebaControlVersiones/Main.java 
+   45  git commit -m "Versión E: añadir factorial interativo"
+   46  git push
+   47  git add src/pruebaControlVersiones/Main.java 
+   48  git commit -m "Versión F: implementar resultado en la terminal"
+   49  git push
+   50  git log --online --graph --all
+   51  git log --oneline --graph --all
+   52  git merge factorial_recursivo
+   53  git merge --continue
+   54  git add src
+   55  git merge --continue
+   56  git log --oneline
+   57  git log --oneline --graph
+   58  git reset --hard 6f15913
+   59  git log --oneline --graph
+   60  git switch factorial_recursivo
+   61  git log
+   62  git log --oneline
+   63  git switch main
+   64  git log --oneline
+   65  git log --oneline --graph
+   66  git log --oneline --graph --all
+   67  git status
+   68  git switch factorial_recursivo
+   69  git rebase main
+   70  git log --oneline --graph --all
+   71  git rebase --continue
+   72  git add src
+   73  git rebase --continue
+   74  clear
+   75  git add src
+   76  git rebase --continue
+   77  git add src
+   78  git rebase --continue
+   79  git log --oneline --graph --all
+   80  clear
+   81  git status
+   82  git push -u origin factorial_recursivo
+   83  git add src
+   84  git commit -m "Versión F4: añadir marca de agua"
+   85  git push -u origin factorial_recursivo
+   86  clear
+   87  git switch main
+   88  git merge factorial_recursivo 
+   89  git log --oneline --graph --all
+   90  git push -u origin main
+   91  git log --oneline --graph --all
+   92  git revert 82a9a94
+   93  clear
+   94  git log --oneline --graph --all
+   95  git reset 82a9a94
+   96  git log --oneline --graph --all
+   97  git status
+   98  cd Documents/dev-clases/
+   99  cd eclipse-workspace/CasadoSanchezSergio_Factorial/
+  100  clear
+  101  ls
+  102  clear
+  103  git status
+  104  git add src
+  105  git commit -m "Se han deshecho los cambios de la última versión."
+  106  git push -u origin main
+  107  git push -u origin main --force
+  108  clear
+  109  git status
+  110  git log --oneline --graph --all
+  111  history > comandos_historial.txt
