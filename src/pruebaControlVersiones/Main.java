@@ -13,8 +13,18 @@ public class Main {
     } else {
       System.out.println("Has introducido el número: " + num);
 
-      System.out.println("RESULTADO - En versiones posteriores se calculará el factorial del número " + num);
+      System.out.println("RESULTADO - El factorial del número " + num + " es " + factorialBucle(num));
     }
+  }
+
+  private static long factorialBucle(int n) {
+    long result = n;
+
+    for (int i = n - 1; i > 0; i--) {
+      result *= i;
+    }
+
+    return result;
   }
 
   private static int pedirNumero() {
