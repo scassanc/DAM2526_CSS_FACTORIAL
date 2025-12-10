@@ -15,6 +15,7 @@ public class Main {
 
       System.out.println("RESULTADO - El factorial del número " + num + " es " + factorialRec(num));
       System.out.println("RESULTADO - El factorial del número " + num + " es " + factorialBucle(num));
+      System.out.println("Proceso completado usando el método recursivo.");
     }
   }
 
